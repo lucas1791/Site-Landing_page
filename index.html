@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/variable.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/class.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,17 +17,212 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Open+Sans:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="main-bg section">
-        <div class="main-content">
-            <h1>lorem</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus nulla fugit quibusdam quae ipsa. Numquam officia quod aliquam consequatur, asperiores cum ullam atque esse placeat porro provident deleniti dolore magnam!</p></div>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+        <h1>
+            <a href="#home">LOGO</a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#grid-one">Grid One</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#grid-two">Grid Two</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+</aside>
+<div class="menu-spacing"></div>
+<section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+        <div class="intro-text-content">
+            <h2>Skatistas Brasileiros nas Olimpíadas de Paris 2024</h2>
+            <p>Os Jogos Olímpicos de 2024, realizados em Paris, trazem novamente o skate como uma das grandes atrações, e os skatistas brasileiros estão prontos para representar bem nosso país.
+            Com a expectativa elevada após o sucesso em Tóquio 2020, a equipe brasileira entra na competição determinada a conquistar mais medalhas e fazer história. A seguir, confira os destaques, horários e locais de transmissão para acompanhar o skate brasileiro.</p>
+        </div>
+        <div class="intro-img">
+            <img src="assets/img/sk8.svg" alt="menino com skate">
+        </div>
+    </div>  
+</section>
+<section id="intro" class="main-bg section">
+    <div class="main-content top3-content">
+        <h2>Top 3 Remote Jobs</h2>
+        <p>Finding a remote job is difficult enough. But locating a fully remote job that pays more than $200,000? The chances are slimmer than ever before.
+        A new Ladders study uncovered some startling data about salaries in 2024, their buying power, and how the pendulum is shifting from fully remote and hybrid work to RTO (return-to-office) for the highest-paid earners.</p>
+        <p>To have the buying power of a job that paid $100,000 a year in 1994, you would need to be making more than $200,000 today in 2024, the analysis revealed. And although in early 2023, there were at least 10% of jobs paying upwards of $200,000 available as remote, today that figure has plummeted by 60%, making it even harder to secure a high-paying job that is fully remote or even hybrid</p>
+        <p>However all is not lost. While employers may be clamping down on their work-from-home policies for their high-earning, white-collar employees, there are some industries that typically tend to favor remote work, at least slightly more than others.</p>
+    </div>
+</section>
+<section id="grid-one" class="grid-one main-bg section">
+    <div class="grid-one-content">
+        <h2 class="grid-main-heading">My Grid</h2>
+        <p class="grid-description">Description</p>
+        <div class="grid">
+            <article>
+                <h3>Software Engineer</h3>
+            <p>Software engineers are the backbone of fintechs, and plays a crucial role in developing software for financial solutions, being the brains behind innovative financial products including emerging spaces such as blockchain and AI, and developing and integrating APIs while ensuring the products are compliant with financial regulations and are optimized for security.</p>
+            </article>
+            <article>
+                <h3>GTM Manager</h3>
+            <p>GTM means "go to market," and GTM managers are responsible for achieving just that: they launch fintech products to the market with a solid GTM strategy that involves recruiting the right team, researching the market, collaborating with stakeholders, and creating a roadmap for marketing and sales.</p>
+            </article>
+            <article>
+                <h3>Product Design Lead</h3>
+            <p>A product design lead focuses on aspects of a fintech product such as user experience, design, and quality assurance, and collaborates with stakeholders and users to obtain feedback and ensure the product meets requirements. They also ensure consistent application of design principles across products, and may collaborate with product managers and even the marketing team.</p>
+            </article>
+        </div>
+    </div>
+</section>
+<section id="gallery" class="grid-one white-bg section">
+    <div class="grid-one-content">
+        <h2 class="grid-main-heading">Gallery</h2>
+        <p class="grid-description">Description</p>
+        <div class="grid">
+            <div class="gallery-img">
+                <img src="https://images.pexels.com/photos/2118045/pexels-photo-2118045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="random image">
+            </div>
+            <div class="gallery-img">
+                <img src="https://images.pexels.com/photos/459797/pexels-photo-459797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="random image">
+            </div>
+            <div class="gallery-img">
+                <img src="https://images.pexels.com/photos/68705/pexels-photo-68705.jpeg?auto=compress&cs=tinysrgb&w=600" alt="random image">
+            </div>
+            <div class="gallery-img">
+                <img src="https://images.pexels.com/photos/14919236/pexels-photo-14919236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            </div>
+            <div class="gallery-img">
+                <img src="https://images.pexels.com/photos/21710543/pexels-photo-21710543/free-photo-of-twinkei.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            </div>
+            <div class="gallery-img">
+                <img src="https://images.pexels.com/photos/5701622/pexels-photo-5701622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="grid-two" class="grid-one main-bg section">
+    <div class="grid-one-content">
+        <h2 class="grid-main-heading">My Grid 2</h2>
+        <p class="grid-description">Description</p>
+        <div class="grid">
+            <article>
+                <h3>Software Engineer</h3>
+            <p>Software engineers are the backbone of fintechs, and plays a crucial role in developing software for financial solutions, being the brains behind innovative financial products including emerging spaces such as blockchain and AI, and developing and integrating APIs while ensuring the products are compliant with financial regulations and are optimized for security.</p>
+            </article>
+            <article>
+                <h3>GTM Manager</h3>
+            <p>GTM means "go to market," and GTM managers are responsible for achieving just that: they launch fintech products to the market with a solid GTM strategy that involves recruiting the right team, researching the market, collaborating with stakeholders, and creating a roadmap for marketing and sales.</p>
+            </article>
+            <article>
+                <h3>Product Design Lead</h3>
+            <p>A product design lead focuses on aspects of a fintech product such as user experience, design, and quality assurance, and collaborates with stakeholders and users to obtain feedback and ensure the product meets requirements. They also ensure consistent application of design principles across products, and may collaborate with product managers and even the marketing team.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="pricing" class="pricing white-bg section">
+    <div class="main-content top3-content">
+        <h2>Pricing</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci laborum, quisquam ipsum esse eveniet consectetur tempore molestiae! Harum incidunt repellendus laboriosam, dignissimos quas impedit perspiciatis, error tempora, nesciunt aliquid itaque!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellendus, voluptates non dolore sed unde sapiente necessitatibus quibusdam quaerat vel mollitia autem tempora error tenetur facilis quidem ab, saepe voluptate?</p>
         
-    </section>
-    <section class="white-bg section">
-        <div class="main-content">
-            <h1>lorem</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus nulla fugit quibusdam quae ipsa. Numquam officia quod aliquam consequatur, asperiores cum ullam atque esse placeat porro provident deleniti dolore magnam!</p></div>
-        
-    </section>
+    </div>
+<div >
+    <table>
+        <caption>pricing table</caption>
+        <thead>
+        <tr>
+            <th>Title 1</th>
+            <th>Title 2</th>
+            <th>Title 3</th>
+            <th>Title 4</th>
+            <th>Title 5</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Testando</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+</section>
+
+<section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+        <div class="intro-text-content">
+            <h2>Skatistas Brasileiros nas Olimpíadas de Paris 2024</h2>
+            <p>Os Jogos Olímpicos de 2024, realizados em Paris, trazem novamente o skate como uma das grandes atrações, e os skatistas brasileiros estão prontos para representar bem nosso país.
+            Com a expectativa elevada após o sucesso em Tóquio 2020, a equipe brasileira entra na competição determinada a conquistar mais medalhas e fazer história. A seguir, confira os destaques, horários e locais de transmissão para acompanhar o skate brasileiro.</p>
+        </div>
+        <div class="intro-img">
+            <img src="assets/img/sk8.svg" alt="menino com skate">
+        </div>
+        <div class="contact-form">
+            <fieldset class="form-grid">
+                <legend>Contact me</legend>
+                <div class="form-group">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="last-name">Last name</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Your email">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="messsage">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                </div>
+
+                <div class="form-group full-width">
+                    <button type="submit">Send a message</button>
+                </div>
+            </fieldset>
+        </div>
+    </div>  
+</section>
+<footer id="footer" class="white-bg footer">
+    <p><a rel="nofollow" target="_blank" href="https://github.com/lucas1791/Aula-GitHub">Feito com <span class="heart">❤</span> por Lucas Rocha</a></p>
+</footer>
 </body>
 </html>
